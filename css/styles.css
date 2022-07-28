@@ -80,12 +80,17 @@ body {
 }
 
 .container{
-  width: 1600px ;
+  width: 1200px ;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid red;}
+  section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+  }
 
   .visually-hidden {
   position: absolute;
@@ -104,11 +109,15 @@ body {
 .header {
   background:var(--main-background-color));
   min-height:80px;
+  border-bottom: 1px solid #ECECEC;
+  padding-top:24px;
+  padding-bottom: 25px;
+  
 }
 .logo-header{
   margin-right:93px;
-  margin-top:24px;
-  margin-bottom: 25px;
+  
+  
 }
 
 .header .container{
@@ -160,8 +169,10 @@ body {
 /*--- Кнопка - HERO ---*/
 .hero {
   background: var(--second-background-color);
-  
-  
+  min-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+ 
 
 
 }
@@ -173,6 +184,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--second-title-color);
+ margin-bottom: 40px;
+ max-width: 696px;
+margin-left: auto;
+margin-right: auto;
 
 }
 .hero-btn:hover,
@@ -188,10 +203,18 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+  display: flex;
+  margin-left: auto;
+margin-right: auto;
+
+  
+ align-items: center;
+ text-align: center
  
   letter-spacing: 0.06em;
   color: var(--second-title-color);
-;
+ 
+  
 }
 /*-- Переваги компанії --SPECIALITY --*/
 .speciality-subtitle {
