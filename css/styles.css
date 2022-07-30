@@ -116,11 +116,12 @@ body {
   background:var(--main-background-color);
   min-height:80px;
   border-bottom: 1px solid #ECECEC;
-  padding-top:24px;
-  padding-bottom: 25px; 
+   
 }
 .logo-header{
   margin-right:93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header .container{
@@ -150,7 +151,12 @@ body {
 .header-list{
   display: flex;
   gap:50px ;
-  align-items: center
+  align-items: center;
+  
+}
+.header-link{
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 
@@ -221,10 +227,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .speciality-list{
   display:flex;
 gap: 30px;
+flex-basis: 270px;
 }
-.speciality-item{
-  max-width: 270px;
-}
+
 .speciality-subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -243,7 +248,8 @@ gap: 30px;
 .functions{padding-top: 0;}
 .functions-list{
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
+  flex-basis: 270px;
   
 }
 /*--Команда компанії--*/
@@ -334,7 +340,8 @@ gap: 8px;
   color: var(--main-text-color);
   min-width: 73px;
  border-radius: 4px;
- outline: none
+ outline: none;
+ padding: 6px 22px;
 }
 .portfolio-btn:hover {
   color: var(--second-title-color);
@@ -350,13 +357,17 @@ gap: 8px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  flex-basis: 370px;
 }
 .portfolio-list-item{
   background: #FFFFFF;
-border: 1px solid #EEEEEE;
+
+
 }
 .portfolio-description{
   padding: 20px 24px;
+  border: 1px solid #EEEEEE;
+ border-top: transparent;
 }
 .portfolio-title {
   font-weight: 700;
