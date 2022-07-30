@@ -205,7 +205,7 @@ margin-right: auto;
 
 .hero-btn {
   background: var(--accent-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   border-radius: 4px;
   font-family: inherit;
@@ -219,7 +219,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  align-items: center;
  text-align: center
  letter-spacing: 0.06em;
-  color: var(--second-title-color);
+ color: var(--second-title-color);
  }
 
 /*-- Переваги компанії --SPECIALITY --*/
@@ -227,8 +227,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .speciality-list{
   display:flex;
 gap: 30px;
-flex-basis: 270px;
+
 }
+
 
 .speciality-subtitle {
   font-weight: 700;
@@ -249,9 +250,11 @@ flex-basis: 270px;
 .functions-list{
   display: flex;
   gap: 30px;
-  flex-basis: 270px;
+
+flex-basis: 270px;
+  }
   
-}
+
 /*--Команда компанії--*/
 .team {
   background:var(--third-background-color);
@@ -267,11 +270,19 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   
   gap: 30px;
+  
+}
+.team-item{
+ 
+ flex-basis: 270px;
 }
 
 .team-description{
+
+
   padding-top: 30px;
   padding-bottom: 30px;
+ 
 }
 .team-name {
   font-weight: 500;
@@ -280,6 +291,7 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+ 
 }
 .team-profession {
   
@@ -358,10 +370,12 @@ gap: 8px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  flex-basis: 370px;
+ 
+  
 }
 .portfolio-list-item{
   background: #FFFFFF;
+ flex-basis: 370px;
 
 
 }
