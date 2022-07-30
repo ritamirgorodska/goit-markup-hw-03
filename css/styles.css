@@ -343,7 +343,8 @@ gap: 8px;
  outline: none;
  padding: 6px 22px;
 }
-.portfolio-btn:hover {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   color: var(--second-title-color);
   background: var(--accent-color);
 }
