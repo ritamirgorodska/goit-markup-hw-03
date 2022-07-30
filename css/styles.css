@@ -113,7 +113,7 @@ body {
 }
 /* -- Header----*/
 .header {
-  background:var(--main-background-color));
+  background:var(--main-background-color);
   min-height:80px;
   border-bottom: 1px solid #ECECEC;
   padding-top:24px;
@@ -208,13 +208,14 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 1.875;
   display: flex;
   margin-left: auto;
-margin-right: auto;
+ margin-right: auto;
 
  align-items: center;
  text-align: center
-  letter-spacing: 0.06em;
+ letter-spacing: 0.06em;
   color: var(--second-title-color);
  }
+
 /*-- Переваги компанії --SPECIALITY --*/
 
 .speciality-list{
